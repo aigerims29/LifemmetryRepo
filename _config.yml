@@ -1,12 +1,13 @@
+# Site settings
 title: Lyfemmetry
-description: Blog for geoscience researchings
+description: 'Blog for geoscience researchings'
 author: Aigerim Sultanbekova & Joan Cano
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/lifemmetry/LifemmetryR
+logo: '/hcz-jekyll-blog/static/img/avatar.png'
+github: "https://github.com/lifemmetry/LifemmetryR"
 about: Geeks
 
-baseurl: ""
-url: ""
+baseurl: "/LifemmetryR"
+url: "https://lifemmetry.github.io/"
 
 allowsearch: true
 
