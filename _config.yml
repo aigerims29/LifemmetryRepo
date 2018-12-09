@@ -2,7 +2,7 @@
 title: Lyfemmetry
 description: 'Blog for geoscience researchings'
 author: Aigerim Sultanbekova & Joan Cano
-logo: '/hcz-jekyll-blog/static/img/avatar.png'
+logo: 'https://github.com/lifemmetry/LifemmetryR/blob/master/static/img/avatar.png'
 github: "https://github.com/lifemmetry/LifemmetryR"
 about: Geeks
 
