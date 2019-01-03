@@ -4,10 +4,84 @@
     <title>Lyfemmetry</title>
     <description>Blog for geoscience researchings</description>
     <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Dec 2018 01:03:41 +0100</pubDate>
-    <lastBuildDate>Fri, 07 Dec 2018 01:03:41 +0100</lastBuildDate>
+    <atom:link href="http://localhost:4000/LifemmetryR/sitemap.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Jan 2019 11:56:13 +0100</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2019 11:56:13 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>How to make 360 photos and publish them</title>
+        <description>&lt;p&gt;I were a lot of time having in my head the possibility of do 360 photos, for a personal library, maybe some  job, and of course, because I have a Parrot Anafi!&lt;/p&gt;
+
+&lt;p&gt;After my research, where my principal ideas were:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;what software would I need&lt;/li&gt;
+  &lt;li&gt;Open Source / or free&lt;/li&gt;
+  &lt;li&gt;Good results about the stiching and quality in the final photo&lt;/li&gt;
+  &lt;li&gt;Next? Like for example virtual tours&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, these were the software that I checked:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stitchpanorama.sourceforge.net/&quot;&gt;Stitch Panorama: a GIMP Plug-in&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hugin.sourceforge.net/&quot;&gt;Hugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.shallowsky.com/software/pandora/&quot;&gt;Pandora: a GIMP Plugin for Making Panoramas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://es.shop.gopro.com/EMEA/softwareandapp/gopro-fusion-studio-app/fusion-studio.html&quot;&gt;/gopro-fusion-studio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.panotools.org/Main_Page&quot;&gt;panotools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forgejs.org/&quot;&gt;ForgeJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kolor.com/panotour-viewer-download/&quot;&gt;Panotour Viewer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gigapan.com/cms/support/download-gigapan-stitch&quot;&gt;Gigapan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ptgui.com/&quot;&gt;PTGui&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webuser.hs-furtwangen.de/~dersch/PTStitcherNG/PTStitcherNG0.4.html&quot;&gt;PTsticherNG&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pannellum.org/&quot;&gt;Panellum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The best Open Source opcion was Hugin, of course, but that software has a little problem when you want to go fast, not spend too much time, or because you are lazy.. The problem is that most of times you have to put control points, boring no?&lt;/p&gt;
+
+&lt;p&gt;So, I were checking the commercial software. Seems that one of the best options is Autopano, but, has a problem too.. Why I have always problems? The problem is that is not free, and from 2018 it won’t be manteined.&lt;/p&gt;
+
+&lt;p&gt;But there is a solution!!&lt;/p&gt;
+
+&lt;p&gt;Autopano, in his free version can align the images, and is REALLY GOOD doing this, even can export the alignment in the format of Hugin!&lt;/p&gt;
+
+&lt;p&gt;Then you only have to export the hugin format and process the 360 photo in Hugin without lose resolution.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../images/img360/detectar.png&quot; alt=&quot;000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../images/img360/align.png&quot; alt=&quot;000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../images/img360/panotools.png&quot; alt=&quot;000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../images/img360/file.png&quot; alt=&quot;000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../images/img360/salida.png&quot; alt=&quot;000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After create the photosphere, the next step is publish or share your image, but I didn’t find an Open Source repository.. So, we can create our own repository :), how? With the help of Github or Gitlab.&lt;/p&gt;
+
+&lt;p&gt;Later, we can use the following software and upload to Github: [ForgeJS] (https://forgejs.org), which we only have to download, select the kind of project we want and later, change in the code of the &lt;em&gt;config.json&lt;/em&gt; in some of the projects of the folder &lt;em&gt;/samples/projects/&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I took the folder simple_project and this is the result:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../360/projectes/serrella/index.html&quot;&gt;Serrella&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../360/projectes/castellet/index.html&quot;&gt;Castellet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../360/projectes/polop/index.html&quot;&gt;Polop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this, the files that I upload to Github:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../images/img360/forge.png&quot; alt=&quot;000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can check the project &lt;a href=&quot;https://github.com/JoanCano/joancano.io/tree/master/_site/360&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Jan 2019 14:50:39 +0100</pubDate>
+        <link>http://localhost:4000/vr/2019/01/02/360-photos.html</link>
+        <guid isPermaLink="true">http://localhost:4000/vr/2019/01/02/360-photos.html</guid>
+        
+        
+        <category>VR</category>
+        
+      </item>
     
       <item>
         <title>Differences between camera lenses</title>
