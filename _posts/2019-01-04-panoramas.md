@@ -29,8 +29,8 @@ This is the code of the html:
   <title>Pannellum</title>
   <style>
    #panorama {
-       width: 700px;
-       height: 350px;
+       width: 100%;
+       height: 100%;
    }
    </style>
 
@@ -54,4 +54,4 @@ This is the code of the html:
 And is the in the folder `static`, which is the same in the first folders and the folders inside `_site`.
 
 
-[DEMO](../static/panoponoig.html)
+[DEMO](https://lifemmetry.github.io/LifemmetryR/static/panoponoig.html)
