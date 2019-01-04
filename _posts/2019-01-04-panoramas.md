@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to make 360 photos and publish them
+title: How to make pannellum viewers
 date:   2019-01-04 13:50:39
 categories: VR
 ---
