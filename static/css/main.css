@@ -6,7 +6,6 @@
 }
 .full{ font-size: 16px; }
 .logo-img {
-    background-color: 
     width: 56px;
     height: 56px;
     border-radius: 60px;
@@ -72,7 +71,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #18998d;
+    background: #15423e;
 }
 li.current-menu-item:before {
     content: "";

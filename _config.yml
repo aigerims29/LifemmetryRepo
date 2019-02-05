@@ -1,7 +1,7 @@
 # Site settings
-title: Lyfemmetry
+title: Lifemmetry
 description: Blog for geoscience researchings
-author: Aigerim Sultanbekova & Joan Cano
+author: Aigerim Sultanbek & Joan Cano
 logo: /LifemmetryR/static/img/avatar.png
 github: https://github.com/lifemmetry/LifemmetryR
 about: Geeks
@@ -11,12 +11,12 @@ url: "https://lifemmetry.github.io/"
 
 allowsearch: true
 
-disqus_shortname: 
-google_analytics: 
+disqus_shortname:
+google_analytics:
 
 share:
   twitter_username: \#
-  fb_appid: 
+  fb_appid:
 
 
 enableTags: true
