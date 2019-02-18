@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lyfemmetry</title>
+    <title>Lifemmetry</title>
     <description>Blog for geoscience researchings</description>
     <link>http://localhost:4000/LifemmetryR/</link>
     <atom:link href="http://localhost:4000/LifemmetryR/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Sat, 12 Jan 2019 02:01:39 +0100</pubDate>
     <lastBuildDate>Sat, 12 Jan 2019 02:01:39 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
-    
+
       <item>
         <title>How to make Gigapixel images</title>
         <description>&lt;p&gt;The curiosity of this week has been how to make Gigapixel images..&lt;/p&gt;
@@ -62,14 +62,14 @@
         <pubDate>Fri, 11 Jan 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/LifemmetryR/photography/2019/01/11/gigapixel.html</link>
         <guid isPermaLink="true">http://localhost:4000/LifemmetryR/photography/2019/01/11/gigapixel.html</guid>
-        
+
         <category>photography</category>
-        
-        
+
+
         <category>photography</category>
-        
+
       </item>
-    
+
       <item>
         <title>How to make pannellum viewers</title>
         <description>&lt;p&gt;We need to have 4 files. Among them are the JS and CSS that must be downloaded from &lt;a href=&quot;https://pannellum.org/&quot;&gt;the website&lt;/a&gt;. The html we have to build us and of course, the image too;).&lt;/p&gt;
@@ -137,12 +137,12 @@
         <pubDate>Fri, 04 Jan 2019 14:50:39 +0100</pubDate>
         <link>http://localhost:4000/LifemmetryR/photography/2019/01/04/panoramas.html</link>
         <guid isPermaLink="true">http://localhost:4000/LifemmetryR/photography/2019/01/04/panoramas.html</guid>
-        
-        
+
+
         <category>photography</category>
-        
+
       </item>
-    
+
       <item>
         <title>How to make 360 photos and publish them</title>
         <description>&lt;p&gt;I were a lot of time having in my head the possibility of do 360 photos, for a personal library, maybe some  job, and of course, because I have a Parrot Anafi!&lt;/p&gt;
@@ -211,12 +211,12 @@
         <pubDate>Wed, 02 Jan 2019 14:50:39 +0100</pubDate>
         <link>http://localhost:4000/LifemmetryR/vr/2019/01/02/360-photos.html</link>
         <guid isPermaLink="true">http://localhost:4000/LifemmetryR/vr/2019/01/02/360-photos.html</guid>
-        
-        
+
+
         <category>VR</category>
-        
+
       </item>
-    
+
       <item>
         <title>Differences between camera lenses</title>
         <description>&lt;p&gt;Hi Aigerim, could you do this post? :P&lt;/p&gt;
@@ -224,12 +224,12 @@
         <pubDate>Sat, 04 Jun 2016 15:50:39 +0200</pubDate>
         <link>http://localhost:4000/LifemmetryR/others/2016/06/04/differences-cameras-lenses.html</link>
         <guid isPermaLink="true">http://localhost:4000/LifemmetryR/others/2016/06/04/differences-cameras-lenses.html</guid>
-        
-        
+
+
         <category>others</category>
-        
+
       </item>
-    
+
       <item>
         <title>Test Page</title>
         <description>&lt;p&gt;This is a test blog page where we can explore how to embedd images in the blog.&lt;/p&gt;
@@ -257,11 +257,11 @@
         <pubDate>Thu, 04 Jun 2015 15:50:39 +0200</pubDate>
         <link>http://localhost:4000/LifemmetryR/others/2015/06/04/test-page.html</link>
         <guid isPermaLink="true">http://localhost:4000/LifemmetryR/others/2015/06/04/test-page.html</guid>
-        
-        
+
+
         <category>others</category>
-        
+
       </item>
-    
+
   </channel>
 </rss>
